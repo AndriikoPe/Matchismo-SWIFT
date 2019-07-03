@@ -7,40 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF83147822BD55DF00A786CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83147722BD55DF00A786CC /* AppDelegate.m */; };
-		BF83147B22BD55DF00A786CC /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83147A22BD55DF00A786CC /* CardGameViewController.m */; };
+		BF83147822BD55DF00A786CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF83147722BD55DF00A786CC /* AppDelegate.swift */; };
+		BF83147B22BD55DF00A786CC /* CardGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF83147A22BD55DF00A786CC /* CardGameViewController.swift */; };
 		BF83147E22BD55DF00A786CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF83147C22BD55DF00A786CC /* Main.storyboard */; };
 		BF83148022BD55E000A786CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF83147F22BD55E000A786CC /* Assets.xcassets */; };
 		BF83148322BD55E000A786CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF83148122BD55E000A786CC /* LaunchScreen.storyboard */; };
-		BF83148622BD55E000A786CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83148522BD55E000A786CC /* main.m */; };
-		BF83149822BD5CD700A786CC /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83149722BD5CD700A786CC /* Card.m */; };
-		BFB133AF22BD5F390007EE21 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB133AE22BD5F390007EE21 /* Deck.m */; };
-		BFF93CA422BD639B002A2E34 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF93CA322BD639B002A2E34 /* PlayingCard.m */; };
-		BFF93CA722BD6C84002A2E34 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF93CA622BD6C84002A2E34 /* PlayingCardDeck.m */; };
-		BFF93CAB22BE8E2F002A2E34 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF93CAA22BE8E2F002A2E34 /* CardMatchingGame.m */; };
+		BF83149822BD5CD700A786CC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF83149722BD5CD700A786CC /* Card.swift */; };
+		BFB133AF22BD5F390007EE21 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB133AE22BD5F390007EE21 /* Deck.swift */; };
+		BFF93CA422BD639B002A2E34 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF93CA322BD639B002A2E34 /* PlayingCard.swift */; };
+		BFF93CA722BD6C84002A2E34 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF93CA622BD6C84002A2E34 /* PlayingCardDeck.swift */; };
+		BFF93CAB22BE8E2F002A2E34 /* CardMatchingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF93CAA22BE8E2F002A2E34 /* CardMatchingGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		432744E98577046C7DEF16F6 /* Matchismo OBJC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Matchismo OBJC-Prefix.pch"; sourceTree = "<group>"; };
 		BF83147322BD55DF00A786CC /* Matchismo OBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matchismo OBJC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF83147622BD55DF00A786CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BF83147722BD55DF00A786CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF83147922BD55DF00A786CC /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
-		BF83147A22BD55DF00A786CC /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		BF83147722BD55DF00A786CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF83147A22BD55DF00A786CC /* CardGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameViewController.swift; sourceTree = "<group>"; };
 		BF83147D22BD55DF00A786CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF83147F22BD55E000A786CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF83148222BD55E000A786CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF83148422BD55E000A786CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF83148522BD55E000A786CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF83149622BD5CD700A786CC /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
-		BF83149722BD5CD700A786CC /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
-		BFB133AD22BD5F390007EE21 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
-		BFB133AE22BD5F390007EE21 /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
-		BFF93CA222BD639B002A2E34 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
-		BFF93CA322BD639B002A2E34 /* PlayingCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
-		BFF93CA522BD6C84002A2E34 /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
-		BFF93CA622BD6C84002A2E34 /* PlayingCardDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
-		BFF93CA922BE8E2F002A2E34 /* CardMatchingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
-		BFF93CAA22BE8E2F002A2E34 /* CardMatchingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		BF83149722BD5CD700A786CC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BFB133AE22BD5F390007EE21 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		BFF93CA322BD639B002A2E34 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BFF93CA622BD6C84002A2E34 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		BFF93CAA22BE8E2F002A2E34 /* CardMatchingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMatchingGame.swift; sourceTree = "<group>"; };
+		E85F4B8F8640D5B6D3F3A19A /* Matchismo OBJC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Matchismo OBJC-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +52,8 @@
 			children = (
 				BF83147522BD55DF00A786CC /* Matchismo OBJC */,
 				BF83147422BD55DF00A786CC /* Products */,
+				432744E98577046C7DEF16F6 /* Matchismo OBJC-Prefix.pch */,
+				E85F4B8F8640D5B6D3F3A19A /* Matchismo OBJC-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,13 +69,11 @@
 			isa = PBXGroup;
 			children = (
 				BF83147C22BD55DF00A786CC /* Main.storyboard */,
-				BF83147922BD55DF00A786CC /* CardGameViewController.h */,
-				BF83147A22BD55DF00A786CC /* CardGameViewController.m */,
+				BF83147A22BD55DF00A786CC /* CardGameViewController.swift */,
 				BFF93CA822BD7FFD002A2E34 /* Model */,
 				BF83147F22BD55E000A786CC /* Assets.xcassets */,
 				BF83148422BD55E000A786CC /* Info.plist */,
 				BF83148C22BD560700A786CC /* Supporting Files */,
-				BF83148522BD55E000A786CC /* main.m */,
 			);
 			path = "Matchismo OBJC";
 			sourceTree = "<group>";
@@ -88,9 +81,8 @@
 		BF83148C22BD560700A786CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF83147622BD55DF00A786CC /* AppDelegate.h */,
 				BF83148122BD55E000A786CC /* LaunchScreen.storyboard */,
-				BF83147722BD55DF00A786CC /* AppDelegate.m */,
+				BF83147722BD55DF00A786CC /* AppDelegate.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -98,16 +90,11 @@
 		BFF93CA822BD7FFD002A2E34 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BFF93CA522BD6C84002A2E34 /* PlayingCardDeck.h */,
-				BFF93CA622BD6C84002A2E34 /* PlayingCardDeck.m */,
-				BFF93CA922BE8E2F002A2E34 /* CardMatchingGame.h */,
-				BFF93CAA22BE8E2F002A2E34 /* CardMatchingGame.m */,
-				BFB133AD22BD5F390007EE21 /* Deck.h */,
-				BFB133AE22BD5F390007EE21 /* Deck.m */,
-				BFF93CA222BD639B002A2E34 /* PlayingCard.h */,
-				BFF93CA322BD639B002A2E34 /* PlayingCard.m */,
-				BF83149622BD5CD700A786CC /* Card.h */,
-				BF83149722BD5CD700A786CC /* Card.m */,
+				BFF93CA622BD6C84002A2E34 /* PlayingCardDeck.swift */,
+				BFF93CAA22BE8E2F002A2E34 /* CardMatchingGame.swift */,
+				BFB133AE22BD5F390007EE21 /* Deck.swift */,
+				BFF93CA322BD639B002A2E34 /* PlayingCard.swift */,
+				BF83149722BD5CD700A786CC /* Card.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,14 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB133AF22BD5F390007EE21 /* Deck.m in Sources */,
-				BFF93CA422BD639B002A2E34 /* PlayingCard.m in Sources */,
-				BF83147B22BD55DF00A786CC /* CardGameViewController.m in Sources */,
-				BF83148622BD55E000A786CC /* main.m in Sources */,
-				BFF93CAB22BE8E2F002A2E34 /* CardMatchingGame.m in Sources */,
-				BFF93CA722BD6C84002A2E34 /* PlayingCardDeck.m in Sources */,
-				BF83147822BD55DF00A786CC /* AppDelegate.m in Sources */,
-				BF83149822BD5CD700A786CC /* Card.m in Sources */,
+				BFB133AF22BD5F390007EE21 /* Deck.swift in Sources */,
+				BFF93CA422BD639B002A2E34 /* PlayingCard.swift in Sources */,
+				BF83147B22BD55DF00A786CC /* CardGameViewController.swift in Sources */,
+				BFF93CAB22BE8E2F002A2E34 /* CardMatchingGame.swift in Sources */,
+				BFF93CA722BD6C84002A2E34 /* PlayingCardDeck.swift in Sources */,
+				BF83147822BD55DF00A786CC /* AppDelegate.swift in Sources */,
+				BF83149822BD5CD700A786CC /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +317,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KN698M2XH6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Matchismo OBJC-Prefix.pch";
 				INFOPLIST_FILE = "Matchismo OBJC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -340,6 +329,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.develop.Matchismo-OBJC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Matchismo OBJC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -348,8 +340,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KN698M2XH6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Matchismo OBJC-Prefix.pch";
 				INFOPLIST_FILE = "Matchismo OBJC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -357,6 +352,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.develop.Matchismo-OBJC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Matchismo OBJC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
